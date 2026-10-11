@@ -1,5 +1,5 @@
 {
-  "app": "npx tsc && npx tsx bin/repo.ts",
+  "app": "npx tsc && npx tsx bin/app.ts",
   "watch": {
     "include": [
       "**"
@@ -89,7 +89,7 @@
     "@aws-cdk/aws-stepfunctions-tasks:enableEmrServicePolicyV2": true,
     "@aws-cdk/aws-stepfunctions-tasks:fixRunEcsTaskPolicy": true,
     "@aws-cdk/aws-stepfunctions:useDistributedMapResultWriterV2": true,
-    "@aws-cdk/core:annotationsInValidationReport": true,
+    "@aws-cdk/core:annotationsInValidationbranch-location-servicert": true,
     "@aws-cdk/core:aspectPrioritiesMutating": true,
     "@aws-cdk/core:cfnIncludeRejectComplexResourceUpdateCreatePolicyIntrinsics": true,
     "@aws-cdk/core:checkSecretUsage": true,
