@@ -83,7 +83,7 @@ This service was built folowing a TDD methodology building and testing one modul
 
 The latest AWS-supported runtimes were selected to maximise long-term maintainability and support, carrying negligible risk for a scoped service of this size.
 
-Using TypeScript 6 instead of TypeScript 7 because TS7's Go-based compiler doesn't expose the JavaScript compiler API required by ts-jest and other development tooling. While TS7 offers 10x performance improvements, the ecosystem hasn't fully adapted yet. TS6 is the final JavaScript-based release and provides stable compatibility with Node 24 runtime, Jest testing framework, and all build tools.
+TypeScript 6 is used instead of TypeScript 7 because TS7's Go-based compiler doesn't expose the JavaScript compiler API required by ts-jest and other development tooling. While TS7 offers 10x performance improvements, the ecosystem hasn't fully adapted yet. TS6 is the final JavaScript-based release and provides stable compatibility with Node 24 runtime, Jest testing framework, and all build tools.
 
 
 ## AI Usage
@@ -96,7 +96,7 @@ Whilst code was all written by myself, Claude Code was used on completion to run
 These findings were quickly updated to finish off a more robust and comprehensive service.
 
 Gemini was used as chat to discuss:
-- Makign final decisions on scope
+- Making final decisions on scope
 - Finding edge cases for tests
 - Diagnosing failing tests
 
